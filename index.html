@@ -19,6 +19,11 @@
             min-height: 100svh;
         }
         
+        .bg-img {
+            object-fit: cover;
+            object-position: center top;
+        }
+        
         header {
             z-index: 1000;
         }
@@ -27,6 +32,8 @@
 </head>
 
 <body>
+
+    <img src="images/background.jpg" alt="" class="bg-img position-fixed top-0 w-100 h-100">
 
     <a class="side-nav-toggle p-2 d-lg-none" id="side-nav-toggle">
         <div class="btn btn-circle-2" id="open-side-nav">
